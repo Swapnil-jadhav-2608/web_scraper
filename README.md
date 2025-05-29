@@ -1,5 +1,5 @@
 #   Company Info Web Scraper 
-This project is a Web Scraper sitemap that extracts detailed company information from a structured business website.
+This is a Web Scraper sitemap that extracts detailed company information from a structured business website.
 
 ##  Features
 
