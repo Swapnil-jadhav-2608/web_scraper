@@ -1,0 +1,97 @@
+{
+  "_id": "company_data_scraper",
+  "startUrl": ["https://example.com/company/ibm"], 
+  "selectors": [
+    {
+      "id": "company_name",
+      "type": "SelectorText",
+      "selector": "span.company-name",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "hq_address",
+      "type": "SelectorText",
+      "selector": "p.company-header-subtitle",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "address",
+      "type": "SelectorText",
+      "selector": "span.content:nth-of-type(1)",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "phone_number",
+      "type": "SelectorText",
+      "selector": "span.content:nth-of-type(2)",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "website",
+      "type": "SelectorLink",
+      "selector": "a.website-link.link",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "revenue",
+      "type": "SelectorText",
+      "selector": "div.icon-text-container:has(h3.icon-label:contains('Revenue')) span.content",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "industry",
+      "type": "SelectorText",
+      "selector": "#company-chips-wrapper",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "about_desc",
+      "type": "SelectorText",
+      "selector": "span.company-desc",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "linkedin_page",
+      "type": "SelectorLink",
+      "selector": "a#0-LINKED_IN",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "twitter_page",
+      "type": "SelectorLink",
+      "selector": "a#1-TWITTER",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "facebook_page",
+      "type": "SelectorLink",
+      "selector": "a#2-FACEBOOK",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "SIC_code",
+      "type": "SelectorText",
+      "selector": "span.codes-content:nth-of-type(1)",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    },
+    {
+      "id": "NAICS_code",
+      "type": "SelectorText",
+      "selector": "span.codes-content:nth-of-type(2)",
+      "parentSelectors": ["_root"],
+      "multiple": false
+    }
+  ]
+}
