@@ -40,6 +40,3 @@ This scraper collects:
 
 ---
 
-##  Author
-    Swapnil Jadhav
-    swapniljadhav9137@gmail.com
