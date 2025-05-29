@@ -41,7 +41,7 @@ This scraper collects:
 ---
 Supported URL
 
-> This scraper is designed specifically for company pages from **[ZoomInfo](https://www.zoominfo.com/)**.
+> This scraper is supporated for company pages from **[ZoomInfo](https://www.zoominfo.com/)**.
 
 
 
