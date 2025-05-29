@@ -39,4 +39,9 @@ This scraper collects:
    - Export results as CSV or JSON once scraping is done.
 
 ---
+Supported URL
+
+> This scraper is designed specifically for company pages from **[ZoomInfo](https://www.zoominfo.com/)**.
+
+
 
