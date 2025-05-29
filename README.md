@@ -31,7 +31,7 @@ This scraper collects:
 
 3. **Import Sitemap:**
    - Click on “Import Sitemap”
-   - Paste the contents from `sitemap.json` (provided in this repo)
+   - Paste the contents from `import_sitemap.json` (provided in this repo)
 
 4. **Start Scraping:**
    - Set the correct `startUrl` to the company page you want to scrape.
