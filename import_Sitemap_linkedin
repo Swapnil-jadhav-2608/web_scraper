@@ -1,0 +1,96 @@
+{
+    "_id": "Linkedin",
+    "startUrl": [],
+    "selectors": [
+        {
+            "id": "company_name",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "h1",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "description",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "section > p",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "industry",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "dt:contains('Industry') + dd.mb4.t-black--light.text-body-medium",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "website",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "dd.mb4.t-black--light.text-body-medium:not([href])",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "company_size",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "dd.mb1.t-black--light.text-body-medium",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "specialties",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "dd.mb4.t-black--light.text-body-medium:last-of-type",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "address1",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "div.inline-block > div.org-top-card-summary-info-list__info-item:nth-of-type(1)",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "associated_members",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "dd.t-black--light.mb4.text-body-medium a span",
+            "multiple": false,
+            "regex": ""
+        },
+        {
+            "id": "emp_count",
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "selector": "a.org-top-card-summary-info-list__info-item-link span",
+            "multiple": false,
+            "regex": ""
+        }
+    ]
+}
